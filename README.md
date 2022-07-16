@@ -1,6 +1,8 @@
 ### variation_normalize
- a variant normalization procedure
-
+A variant normalization procedure
+1. Left-align and normalize indels;
+2. check if REF alleles match the reference;
+3. split multiallelic sites into multiple rows;
 
 ### usage
 View instructions by running `python3 variation_normalize.py -h`
